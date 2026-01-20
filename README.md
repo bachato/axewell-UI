@@ -1,7 +1,5 @@
 # axewell UI
 
-<img src="public/logo.png" alt="axewell UI Logo" width="180">
-
 Project focused on creating a completely new VUE-based frontend that integrates with the existing Bitaxe firmware as altertative to AxeOS.
 
 Download latest release: [www.bin](https://github.com/ruchus/axewell-UI/releases)
