@@ -503,6 +503,14 @@
                       <span>&nbsp;{{ t("swarmPage.efficiency") }} <small>(≈ {{ efficiency }} W/Th)</small></span>
                     </div>
                   </div>
+
+                  <div class="q-mt-md q-pt-sm" v-if="hashRateByToken.length > 0" style="border-top: 1px solid rgba(255,255,255,0.1)">
+                    <div v-for="token in hashRateByToken" :key="token.code" class="row items-center justify-center q-gutter-x-sm q-mb-xs">
+                      <q-img v-if="token.image" :src="token.image" style="width: 23px;" />
+                      <span class="yellowData text-bold" style="font-size: 16px;">{{ token.value }}{{ token.unit }}</span>
+                      <span class="text-caption text-grey-7">{{ token.code }}</span>
+                    </div>
+                  </div>
                 </q-card-section>
               </q-card>
               <q-card flat class="swarmCardsMobile q-pa-sm card q-my-md">
