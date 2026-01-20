@@ -1,3 +1,11 @@
+## [1.6.1](https://github.com/ruchus/axewell-UI/compare/v1.6.0...v1.6.1) (2026-01-20)
+
+
+### Bug Fixes
+
+* merge error ([44c9ff9](https://github.com/ruchus/axewell-UI/commit/44c9ff90517f5996aa1cf9987848fe7cb3ff9893))
+* view for group total hassh rate by token on swarm page ([64b5a73](https://github.com/ruchus/axewell-UI/commit/64b5a73f1dd965c03696d1381874618eb6fad5ee)), closes [#44](https://github.com/ruchus/axewell-UI/issues/44)
+
 # [1.6.0](https://github.com/ruchus/axewell-UI/compare/v1.5.0...v1.6.0) (2026-01-02)
 
 
