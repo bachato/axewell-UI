@@ -71,6 +71,9 @@ npm run dev
 > **Note**: For development, is configured by default an API prefix in a `.env.development` file to route requests to a specific test server in order to projects works.
 > `VITE_AXIOS_BASE_URL_PREFIX=https://apidevices.axewell.tech/api/test/bitaxe`
 
+For example, a call to the system information endpoint would resolve to:
+`https://apidevices.axewell.tech/api/test/bitaxe/api/system/info`
+
 ### Build for Production
 
 Builds the application for production to the `dist` folder.
