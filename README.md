@@ -91,11 +91,7 @@ The build process also includes post-build compression steps using `compress.js`
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests to help improve Axewell UI.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+If you are a developer, you are welcome to collaborate with the project! Feel free to open issues or submit pull requests. If not, you can still help us by purchasing your [Bitaxe Completion Kit](https://axewell.tech/).
 
 ---
 
