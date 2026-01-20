@@ -103,7 +103,7 @@
     "daily": "Journalier",
     "monthly": "Mensuel",
     "yearly": "Annuel",
-    "unknownToken": "Token inconnu"
+    "unknownToken": "Token ambigu"
   },
   "settingsPage": {
     "title": "Paramètres",

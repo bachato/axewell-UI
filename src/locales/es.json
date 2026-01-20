@@ -103,7 +103,7 @@
     "daily": "Diario",
     "monthly": "Mensual",
     "yearly": "Anual",
-    "unknownToken": "Token desconocido"
+    "unknownToken": "Token ambiguo"
   },
   "settingsPage": {
     "title": "Configuración",
