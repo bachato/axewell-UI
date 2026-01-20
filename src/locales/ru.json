@@ -103,7 +103,7 @@
     "daily": "Ежедневная",
     "monthly": "Ежемесячная",
     "yearly": "Ежегодная",
-    "unknownToken": "Token неизвестен"
+    "unknownToken": "Неоднозначный токен"
   },
   "settingsPage": {
     "title": "Настройки",

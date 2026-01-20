@@ -104,7 +104,7 @@
     "daily": "Daily",
     "monthly": "Monthly",
     "yearly": "Yearly",
-    "unknownToken": "Token unknown"
+    "unknownToken": "Ambiguous token"
   },
   "settingsPage": {
     "title": "Settings",

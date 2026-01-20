@@ -8,6 +8,9 @@ import { i18n } from '@/plugins/i18n'
 const apiBaseUrlPrefix = import.meta.env.VITE_AXIOS_BASE_URL_PREFIX
 if (apiBaseUrlPrefix) {
   axios.defaults.baseURL = apiBaseUrlPrefix
+  if (import.meta.env.DEV) {
+    console.log(`[Axe Store] Axios baseURL set to: ${apiBaseUrlPrefix}`)
+  }
 }
 
 export const useAxeStore = defineStore('axe', {
