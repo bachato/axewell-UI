@@ -18,9 +18,9 @@ Discuss about the project on [Discord](https://discord.gg/6XYuqTXR)
 
 <img width="1484" height="879" alt="4" src="https://github.com/user-attachments/assets/8b74af4b-34f6-489a-9506-6cdd496f61a7" />
 
-A modern, high-performance web interface for **Bitaxe** ASIC miners. axewell UI provides a comprehensive dashboard to monitor, manage, and optimize your mining hardware with a focus on aesthetics, responsiveness, and user experience.
-
 ## Features
+
+A modern, high-performance web interface for **Bitaxe** ASIC miners. axewell UI provides a comprehensive dashboard to monitor, manage, and optimize your mining hardware with a focus on aesthetics, responsiveness, and user experience.
 
 - **Real-time Dashboard**: Monitor hashrate (Gh/s), power consumption (W), and efficiency (J/Th) in real-time.
 - **Swarm Management**: Monitor multiple devices on your network from a single interface.
@@ -68,6 +68,9 @@ npm run dev
 
 > **Note**: For development, is configured by default an API prefix in a `.env.development` file to route requests to a specific test server in order to projects works.
 > `VITE_AXIOS_BASE_URL_PREFIX=https://apidevices.axewell.tech/api/test/bitaxe`
+
+For example, a call to the system information endpoint would resolve to:
+`https://apidevices.axewell.tech/api/test/bitaxe/api/system/info`
 
 ### Build for Production
 
